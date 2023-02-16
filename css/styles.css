@@ -1,0 +1,182 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+    color: purple;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+hr{
+    border: dotted #EDDBC7 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 25%;
+    padding-top: 100px;
+    
+}
+
+.photography-pic{
+    border-radius: 50%;
+}
+
+h1{
+    color:violet;
+    font-size: 5.625rem;
+    line-height: 1;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color:violet;
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color:violet;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-container{
+    background-color:#EDDBC7;
+    position: relative;
+    padding-top:210px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+
+.bottom-container{
+    background-color: #EDDBC7;
+    padding: 50px 0 20px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+}
+
+
+.pro{
+    text-decoration:underline;
+}
+
+.contact-message{
+    width:40%;
+    margin: 40px auto 60px;
+}
+
+
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+
+
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+    
+   
+}
+.photography-pic{
+    width:35%;
+    float: left;
+    padding: 30px;
+
+}
+
+.sales-logo{
+    width: 35%;
+    float: right;
+    border-radius: 10%;
+
+}
+
+.error-logo{
+    width: 25%;
+    border-radius: 50%;
+    float: right;
+}
+
+
+.bulls-logo{
+    width: 25%;
+    float: right;
+    border-radius:50%
+}
+
+.sales-skill-description{
+    clear: left;
+}
+
+.dev-skill-description{
+    clear: left;
+}
+
+.btn {
+    background: #ce34d9;
+    background-image: -webkit-linear-gradient(top, #ce34d9, #7b2bb8);
+    background-image: -moz-linear-gradient(top, #ce34d9, #7b2bb8);
+    background-image: -ms-linear-gradient(top, #ce34d9, #7b2bb8);
+    background-image: -o-linear-gradient(top, #ce34d9, #7b2bb8);
+    background-image: linear-gradient(to bottom, #ce34d9, #7b2bb8);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #d93cfc;
+    background-image: -webkit-linear-gradient(top, #d93cfc, #c834d9);
+    background-image: -moz-linear-gradient(top, #d93cfc, #c834d9);
+    background-image: -ms-linear-gradient(top, #d93cfc, #c834d9);
+    background-image: -o-linear-gradient(top, #d93cfc, #c834d9);
+    background-image: linear-gradient(to bottom, #d93cfc, #c834d9);
+    text-decoration: none;
+  }
+
+  .copyright {
+    color: purple;
+    font-size: .75rem;
+    padding: 20px 0;
+  }
